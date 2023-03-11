@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  background-color: #f8e4c1;
+}
+.header {
+  color: #f8e4c1;
+  background-color: #2e0d23;
+  padding: 50px 70px;
+  font-size: 1.5rem;
+  text-transform: capitalize ;
+  /* text-align: center; */
+  /* margin-bottom: 30px; */
+}
+.h2main {
+  font-size: xx-large;
+  border-left: solid 9px #f54828;
+  /* border-radius: 19px ; */
+  margin: 10px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+main {
+  margin: 0 50px;
+}
+main p {
+  margin: 5px 0;
+  padding: 0 20px;
+  text-align: justify;
+}
+figure {
+  display: flex;
+}
+img {
+  width: 50%;
+  padding: 0 5px;
+  margin: 20px auto;
+}
+
+.footer {
+  color: #f8e4c1;
+  background-color: #2e0d23;
+  margin: 30px 0 0 0;
+  padding: 30px;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer a{
+  text-decoration: none;
+  color: #f8e4c1;
+}
+footer a:hover{
+  color:#f54828;
+  transition: 400ms ease-in-out;
+}
+footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a {
+  display: inline-block;
+  position: relative;
+}
+
+footer a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f54828;
+  transition: width 400ms ease-in-out;}
+
+footer a:hover::before {
+  width: 100%;
+}
+/* colorspalet{
+  color: #ffedbf 
+  #f7803c 
+  #f54828 
+  #2e0d23
+  #f8e4c1;
+}  */
